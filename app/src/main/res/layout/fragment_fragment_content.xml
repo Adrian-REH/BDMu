@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_5"
+    tools:context="com.helper.appmu.FragmentContent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="-5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:background="@drawable/main_left"/>
+        <ImageView
+            android:layout_marginTop="-5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:background="@drawable/main_left"/>
+        <ImageView
+            android:layout_marginTop="-5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:background="@drawable/main_left"/>
+        <ImageView
+            android:layout_marginTop="-5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:background="@drawable/main_left"/>
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="top"
+        android:padding="10dp"
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:background="@drawable/borde_redondo"
+                android:src="@drawable/pag_mu"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/btn_pag"
+                android:layout_height="wrap_content" />
+
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/btn_fb"
+                        android:layout_width="wrap_content"
+                        android:minWidth="250dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/rectan_redondea3"
+                        android:text="FACEBOOK"
+                        android:textColor="#ffffff"
+                        android:textSize="18dp" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/btn_wp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:autoLink="phone"
+                        android:minWidth="250dp"
+                        android:background="@drawable/rectan_redondea4"
+                        android:text="WhatsApp"
+                        android:textColor="#ffffff"
+                        android:textSize="18dp"
+                        android:textStyle="normal" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+</LinearLayout>

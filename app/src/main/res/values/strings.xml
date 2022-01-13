@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AyudaMu</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="search_content">Search</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8696011680534675/7203838498</string>
+
+    <string-array name="muname">
+        <item>Mu 1</item>
+        <item>Mu 2</item>
+        <item>Mu 3</item>
+        <item>Mu 4</item>
+
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+

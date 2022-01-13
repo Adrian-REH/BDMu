@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "976469686797",
+    "firebase_url": "https://helpmu-9cdaf.firebaseio.com",
+    "project_id": "helpmu-9cdaf",
+    "storage_bucket": "helpmu-9cdaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976469686797:android:9dbc79480e6c2252",
+        "android_client_info": {
+          "package_name": "com.helper.appmu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976469686797-9rqc5nk20sdamd875jdirrlfmosbs0ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuRuB7lSvMvihIFr2BWO5_aRdEZqTB_-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976469686797-9rqc5nk20sdamd875jdirrlfmosbs0ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8696011680534675~2222974555"
+    }
+  ],
+  "configuration_version": "1"
+}

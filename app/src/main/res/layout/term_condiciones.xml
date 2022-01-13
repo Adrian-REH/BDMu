@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="@drawable/back_9">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Términos y Condicion"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <LinearLayout
+               android:orientation="vertical"
+               android:gravity="top"
+               android:layout_margin="5dp"
+               android:padding="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:id="@+id/messageEt"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   android:hint="mensaje"
+                   android:inputType="textMultiLine"
+                   android:lineSpacingExtra="-1sp"
+                   android:textAllCaps="true"
+                   android:textColor="#ffffff"
+                   android:textSize="10sp" />
+           </LinearLayout>
+       </ScrollView>
+
+
+
+   </LinearLayout>
+
+
+
+</LinearLayout>

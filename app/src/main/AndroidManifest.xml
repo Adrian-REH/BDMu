@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.helper.appmu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_nk"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_nk_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        >
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8696011680534675~2222974555"/>
+
+        <activity android:name="com.helper.appmu.ListMuDona.PerfilMuDilg"></activity>
+        <activity android:name="com.helper.appmu.ListMuDona.ListaMu"/>
+        <activity android:name="com.helper.appmu.ViewTop" />
+        <activity android:name="com.helper.appmu.Guia.ActivityGuiaIntermedio" />
+        <activity android:name="com.helper.appmu.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
